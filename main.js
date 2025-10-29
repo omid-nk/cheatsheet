@@ -134,25 +134,75 @@
 // const name = {x=[],y=[]}
 
 // --> Array / Object Methods <--
-// arrayName.length --> Returns the number of elements
-// push() --> add element to end
-// pop() --> remove element from end
-// unshift() --> add element to start
-// shift() --> remove element from start
-// forEach() --> runs a function for each element (no return)
-// Array includes() --> checks if element exists (true/false)
-// some() --> returns true if any element passes condition
-// every() --> returns true if all elements pass condition
-// Array find() --> returns first element that matches condition
-// Array findindex() --> returns index of first element that matches condition (or -1 if not found)
-// Array indexOf() --> returns the index of an element, or -1 if not found
-// splice() --> method can be used to add or remove new items to an array
-// filter() --> returns new array with elements that pass condition
-// map() --> returns new array with modified elements
-// fill() --> fills array with a static value (can set start & end index)
-// lastIndexOf() --> returns the last index of an element, or -1 if not found
-// slice() --> returns a shallow copy of a portion of an array
-// join() --> joins array elements into a string with a separator
-// reverse() --> reverses the order of array elements
-// split() --> splits a string into an array by a separator
-// padStart() & padEnd() --> pads the start/end of a string with given characters to a desired length
+// arrayName.length --> Returns the number of elements.
+// push() --> add element to end.
+// pop() --> remove element from end.
+// unshift() --> add element to start.
+// shift() --> remove element from start.
+// forEach() --> runs a function for each element (no return).
+// Array includes() --> checks if element exists (true/false).
+// some() --> returns true if any element passes condition.
+// every() --> returns true if all elements pass condition.
+// Array find() --> returns first element that matches condition.
+// Array findindex() --> returns index of first element that matches condition (or -1 if not found).
+// Array indexOf() --> returns the index of an element, or -1 if not found.
+// splice() --> method can be used to add or remove new items to an array.
+// filter() --> returns new array with elements that pass condition.
+// map() --> returns new array with modified elements.
+// fill() --> fills array with a static value (can set start & end index).
+// lastIndexOf() --> returns the last index of an element, or -1 if not found.
+// slice() --> returns a shallow copy of a portion of an array.
+// join() --> joins array elements into a string with a separator.
+// reverse() --> reverses the order of array elements.
+// split() --> splits a string into an array by a separator.
+// padStart() & padEnd() --> pads the start/end of a string with given characters to a desired length.
+
+// --> timer <--
+// setInterval(function, milliseconds);
+// clearInterval(functionName);
+// setTimeout(function,miliseconds);
+
+// --> get Dom Element <--
+// document.getElementByTagName("")
+// document.getElementById("")
+// document.getElementByClassName("")
+// document.querySelector("")
+// document.querySelectorAll("")
+
+// element Attribute
+// .className
+// .innerHtml
+// .id
+// .value
+// .style.textAlign = "center"
+// .setAttribute("x","y")
+// .getAttribute("x")
+// .classList.add("") || .classList.remove("") || .classList.toggle("")
+// hasAttribute()
+// removeAttribute()
+// .remove()
+
+// Create Element
+// document.createElement("")
+
+// appent element to Dom
+// .append()
+// .appendChild()
+
+// Event
+// .addEventListener("event",function)
+// click
+// change
+// mouseover
+// mouseout
+// keydown || keypress || keyup
+// load
+// blur
+// focus
+// change
+// submit
+
+// Event Object
+// .addEventListener("event",function(event){})
+// event.y
+// event.preventDefault(); --> if you want change submitBtn Behavior
