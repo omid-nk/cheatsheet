@@ -140,20 +140,20 @@
 // unshift() --> add element to start.
 // shift() --> remove element from start.
 // forEach() --> runs a function for each element (no return).
-// Array includes() --> checks if element exists (true/false).
+// includes() --> checks if element exists (true/false).
+// indexOf() --> returns the index of an element, or -1 if not found.
+// lastIndexOf() --> returns the last index of an element, or -1 if not found.
 // some() --> returns true if any element passes condition.
 // every() --> returns true if all elements pass condition.
-// Array find() --> returns first element that matches condition.
-// Array findindex() --> returns index of first element that matches condition (or -1 if not found).
-// Array indexOf() --> returns the index of an element, or -1 if not found.
-// splice() --> method can be used to add or remove new items to an array.
+// find() --> returns first element that matches condition.
+// findindex() --> returns index of first element that matches condition (or -1 if not found).
 // filter() --> returns new array with elements that pass condition.
 // map() --> returns new array with modified elements.
-// fill() --> fills array with a static value (can set start & end index).
-// lastIndexOf() --> returns the last index of an element, or -1 if not found.
+// splice() --> method can be used to add or remove new items to an array.
 // slice() --> returns a shallow copy of a portion of an array.
 // join() --> joins array elements into a string with a separator.
 // reverse() --> reverses the order of array elements.
+// fill() --> fills array with a static value (can set start & end index).
 // split() --> splits a string into an array by a separator.
 // padStart() & padEnd() --> pads the start/end of a string with given characters to a desired length.
 
@@ -169,7 +169,7 @@
 // document.querySelector("")
 // document.querySelectorAll("")
 
-// element Attribute
+// --> element Attribute <--
 // .className
 // .innerHtml
 // .id
@@ -182,17 +182,16 @@
 // removeAttribute()
 // .remove()
 
-// Create Element
+// --> Create Element <--
 // document.createElement("")
 
-// appent element to Dom
+// --> append element to Dom <--
 // .append()
 // .appendChild()
 
-// Event
+// --> Event <--
 // .addEventListener("event",function)
 // click
-// change
 // mouseover
 // mouseout
 // keydown || keypress || keyup
@@ -202,7 +201,25 @@
 // change
 // submit
 
-// Event Object
+// --> Event Object <--
 // .addEventListener("event",function(event){})
 // event.y
 // event.preventDefault(); --> if you want change submitBtn Behavior
+
+// --> Node <--
+// .nodeType
+// .nodeName
+
+// --> DOM navigation <--
+// .previousElementSibling
+// .nextElementSibling
+// .previousSibling
+// .nextSibling
+// .parentElement
+// .childern
+// .childElementCount
+// .firstChild
+// .firstElementChild
+// .lastChild
+// .lastElementChild
+// .hasChildNodes()
