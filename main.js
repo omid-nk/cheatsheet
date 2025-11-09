@@ -21,6 +21,10 @@
 // typeof() --> operator returns the type of a variable or an expression.
 // isNaN() --> Not-a-Number --> method returns true if a value is NaN.
 // isArray() --> checks if a value is an array (returns true/false)
+// console.table()
+// console.error()
+// console.warn()
+// console.info()
 
 // --> Arithmetic Operators <--
 // + --> Addition
@@ -189,6 +193,9 @@
 // .append()
 // .appendChild()
 
+// InsertAdjacentHTML
+//
+
 // --> Event <--
 // .addEventListener("event",function)
 // click
@@ -200,6 +207,17 @@
 // focus
 // change
 // submit
+// Select
+// DblClick
+// copy
+// cut
+// paste
+// contextmenu
+// onload
+// DOMContentLoaded
+// scroll
+// scrollTo
+// scrollBy
 
 // --> Event Object <--
 // .addEventListener("event",function(event){})
@@ -223,3 +241,35 @@
 // .lastChild
 // .lastElementChild
 // .hasChildNodes()
+
+// Dataset
+// data-name = " " --> html element
+// .dataset.name --> js
+
+// Media
+// .play()
+// .pause()
+// .duration
+// .currentTime
+// .playbackRate
+
+// toFixed()
+
+// Drag & Drop
+// onDragStart
+// onDrag
+// onDragEnd
+// onDragEnter
+// onDragOver
+// onDragLeave
+// onDrop
+
+// localStorage
+// localStorage.setItem()
+// localStorage.getData()
+// localStorage.removeItem()
+// localStorage.clear()
+
+// JSON
+// JSON.stringify()
+// JSON.parse()
