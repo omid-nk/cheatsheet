@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/header.css" />
     <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
     <title>cheatsheet</title>
   </head>
@@ -50,26 +51,18 @@
         </defs>
       </symbol>
     </svg>
-    <!-- change theme Btn -->
-    <span class="header-btns">
-      <svg class="header-btn home">
-        <use href="#home"></use>
-      </svg>
-      <svg class="header-btn theme">
-        <use class="theme-Icon" href="#sun"></use>
-      </svg>
-    </span>
-    <!-- header Title -->
-    <header class="header">
+    <!-- header from Js -->
+    <div id="header"></div>
+    <!-- main -->
+    <div class="header">
       <h1>Cheat Sheet</h1>
       <p>Here are some cheatsheets and quick references</p>
-    </header>
-    <!-- Links -->
-    <section class="links-section">
-      <button data-lang="html" class="links html">Html5</button>
-      <button data-lang="css" class="links css">Css3</button>
-      <button data-lang="js" class="links js">JavaScript</button>
-    </section>
+    </div>
+    <div class="links-section">
+      <a href="./pages/html.html" class="links html">Html5</a>
+      <a href="./pages/css.html" class="links css">Css3</a>
+      <a href="./pages/js.html" class="links js">JavaScript</a>
+    </div>
     <script src="./src/main.js"></script>
   </body>
 </html>

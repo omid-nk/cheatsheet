@@ -49,32 +49,6 @@ h1 {
   padding: 0 8px;
 }
 
-.header-btns {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  position: fixed;
-  top: 12px;
-  left: 12px;
-}
-
-.header-btn {
-  width: 30px;
-  height: 30px;
-  padding: 12px;
-  border-radius: 8px;
-  cursor: pointer;
-  fill: #ededed;
-  background-color: #9f100b;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) inset;
-  transition: all 200ms ease-in-out;
-}
-
-.header-btn:hover {
-  background-color: #890e0a;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.8) inset;
-}
-
 .links-section {
   max-width: 400px;
   display: flex;
@@ -95,6 +69,7 @@ h1 {
   outline: none;
   transition: all 200ms ease-in-out;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .html {

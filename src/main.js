@@ -5,6 +5,25 @@ const htmlCheatSheet = document.querySelector(".html");
 const cssCheatSheet = document.querySelector(".css");
 const jsCheatSheet = document.querySelector(".js");
 
+// load header
+const headerContainer = document.getElementById("header");
+
+fetch("/components/header.html")
+  .then((response) => response.text())
+  .then((html) => {
+    headerContainer.innerHTML = html;
+    const themeBtn = headerContainer.querySelector(".theme");
+    themeBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      const icon = themeBtn.querySelector("use");
+      icon.setAttribute(
+        "href",
+        document.body.classList.contains("dark") ? "#sun" : "#moon"
+      );
+    });
+  })
+  .catch((err) => console.log("Failed to load header:", err));
+
 // check if user first time login set default theme in localStorage
 (function checkTheme() {
   if (localStorage.getItem("themeIsDark") === null) {
@@ -43,19 +62,3 @@ function syncTheme() {
     document.body.classList.remove("light");
   }
 }
-
-// home btn
-homeBtn.addEventListener("click", () => {
-  window.location.replace("");
-});
-
-// links
-htmlCheatSheet.addEventListener("click", () => {
-  window.location.replace("./html.html");
-});
-cssCheatSheet.addEventListener("click", () => {
-  window.location.replace("./css.html");
-});
-jsCheatSheet.addEventListener("click", () => {
-  window.location.replace("./js.html");
-});
